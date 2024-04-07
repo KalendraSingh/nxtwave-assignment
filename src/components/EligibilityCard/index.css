@@ -1,0 +1,18 @@
+.eligibility-card{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    width: 250px;
+    line-height: 0.8;
+    border-top-color: #100882;
+    border-top-width: 5px;
+    border-top-style: solid;
+}
+
+.eligibility-item-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}

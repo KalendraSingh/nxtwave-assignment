@@ -1,0 +1,97 @@
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color:#100882;
+    color: white;
+   width: 100%;
+
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:15px;
+}
+nav ul li{
+    cursor: pointer;
+}
+.navbar-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    color: #100882;
+    font-weight: 600;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.setting-icon{
+    font-size: 20px;
+}
+
+
+.hamburger-menu{
+    display: none;
+}
+.cross-icon{
+    cursor: pointer;
+}
+
+.nav-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.mobile-nav-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #0e1061;
+    height: 100vh;
+    width: 80%;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: left 0.5s ease;
+}
+.mobile-nav-container nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem 2rem;
+
+}
+.mobile-button{
+    padding: 1rem 2rem;
+}
+
+@media screen and (max-width: 768px){
+    nav ul{
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    .navbar-button{
+        display: none;
+    }
+    .mobile-navbar-button{
+        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}

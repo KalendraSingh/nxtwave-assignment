@@ -1,0 +1,16 @@
+
+.card-container{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    width: fit-content;
+    line-height: 0.8;
+}
+
+.item-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
